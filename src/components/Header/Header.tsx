@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-type HeaderProps = {
+export type HeaderProps = {
   siteTitle: string;
 };
 

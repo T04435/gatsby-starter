@@ -11,9 +11,9 @@ import Header from '../Header/Header';
 
 import './layout.css';
 
-type BaseProps = { children: ReactNode };
+export type LayoutProps = { children: ReactNode };
 
-const Layout = (props: BaseProps) => {
+const Layout = (props: LayoutProps) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
