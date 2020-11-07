@@ -39,11 +39,19 @@ module.exports = {
           {
             family: 'Roboto',
             variants: ['100', '400', '700'],
-            subsets: ['latin']
+            subsets: ['latin'],
           },
         ],
       },
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-segment-js',
+      options: {
+        prodKey: process.env.SEGMENT_WRITE_KEY,
+        devKey: process.env.SEGMENT_WRITE_KEY,
+        trackPage: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
