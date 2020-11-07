@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -35,6 +36,7 @@ module.exports = {
           {
             family: 'Roboto Slab',
             subsets: ['latin'],
+            variants: ['400', '700'],
           },
           {
             family: 'Roboto',
