@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
+  "name": "gatsby-starter",
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "0.0.2",
+  "author": "@T04435",
   "dependencies": {
     "@types/node": "^14.11.2",
     "@types/react": "^16.9.50",
@@ -55,7 +54,10 @@
     "react-is": "^17.0.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "typescript",
+    "styled-components",
+    "amplify"
   ],
   "license": "0BSD",
   "scripts": {
