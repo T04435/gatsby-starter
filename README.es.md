@@ -8,8 +8,8 @@
   Gatsby starter
 </h1>
 
-[![Build status](https://img.shields.io/github/workflow/status/T04435/gatsby-starter/CI/master?style=for-the-badge)](https://github.com/T04435/gatsby-starter/blob/master/LICENSE)
-![Version](https://img.shields.io/github/v/release/T04435/gatsby-starter?cacheSeconds=2592000&style=for-the-badge&logo=github)
+[![Build status](https://img.shields.io/github/workflow/status/T04435/gatsby-starter/CI/master?style=for-the-badge)](https://github.com/T04435/gatsby-starter/actions)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/T04435/gatsby-starter?color=steelblue&label=version&logo=github&style=for-the-badge)
 [![License: 0BSD](https://img.shields.io/badge/license-0MSD-green?cacheSeconds=2592000&style=for-the-badge)](https://github.com/T04435/gatsby-statrer/blob/master/LICENSE)
 
 **IDIOMAS**: [🇬🇧](README.md) | [🇪🇸](README.es.md)
