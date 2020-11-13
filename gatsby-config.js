@@ -29,7 +29,7 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
         icon_options: {
           // For all the options available, please see the additional resources below.
-          purpose: `any maskable`,
+          purpose: 'any maskable',
         },
       },
     },
