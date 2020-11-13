@@ -1,7 +1,18 @@
 import { action } from '@storybook/addon-actions';
+import { addDecorator } from '@storybook/react';
+import React from 'react';
+import { GlobalStyle } from '../src/components/Layout/Layout';
+
+addDecorator((s) => (
+  <>
+    <GlobalStyle />
+    {s()}
+  </>
+));
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
+  layout: 'fullscreen',
 };
 
 // Gatsby's Link overrides:

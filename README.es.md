@@ -43,3 +43,11 @@ Comience su proyecto con este modelo estándar. Esta plantilla se envía con los
 1. **Abra el código fuente y comience a editar!**
 
    Abra el directorio `[nombre-del-website]` en el editor de código de su elección y edite` src / pages / index.tsx`. ¡Guarde sus cambios y el navegador se actualizará en tiempo real!
+
+1. **Fuentes**
+
+    Las fuentes se definen en `gatsby-config.js` si las actualiza.
+    También necesitará actualizar storybook:
+    - ejecutar `yarn build`
+    - abra `public/index.html` y copie la etiqueta` style` con `@ font-face`
+    - reemplazar el contenido de `.storybook/preview-head.html`

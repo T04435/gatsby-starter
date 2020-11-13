@@ -12,7 +12,7 @@ import Header from '../Header/Header';
 
 export type LayoutProps = { children: ReactNode };
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 *,
 *:after,
 *:before {

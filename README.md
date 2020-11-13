@@ -42,3 +42,13 @@ Kick off your project with this default boilerplate. This starter ships with the
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
     Open the `[your-website-name]` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+
+1. **Fonts**
+
+    Fonts are defined in `gatsby-config.js` if you do update them!
+    You will also need to update storybook:
+    - run `yarn build`
+    - open `public/index.html` and copy the `style` tag with `@font-face`
+    - replace content of `.storybook/preview-head.html`
+
+
